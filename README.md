@@ -2,25 +2,25 @@
 Two datasets for cloth-changing group re-identification (CCGReID) task, namely **GroupPRCC** and **GroupVC** dataset.
 
 ## Introduction
-* GroupPRCC dataset contains 7,514 training images of 64 group identities and 3,676 testing images of 32 group identities, which are captured under 3 cameras.
-* GroupVC dataset contains 3,832 training images of 111 group identities and 4,179 testing images of 118 group identities, which are captured under 4 cameras.
-* Both datasets provide SCS (same-cloth setting) and CCS (cross-cloth setting) protocols, corrsponding x_SCS.txt and x_CCS.txt, where x $\in${query,gallery}.
+* The GroupPRCC dataset contains 7,514 training images of 64 group identities and 3,676 testing images of 32 group identities, which are captured under 3 cameras.
+* The GroupVC dataset contains 3,832 training images of 111 group identities and 4,179 testing images of 118 group identities, which are captured under 4 cameras.
+* Both datasets provide SCS (same-cloth setting) and CCS (cross-cloth setting) protocols, corresponding x_SCS.txt and x_CCS.txt, where x $\in${query, gallery}.
 
-Please note: For ease of storage and distribution, we store the member (size: $256\times128$) in each group in a single, uniform-sized image (size: $256\times768$) with proper zero padding. The image of each member can be easily obtained by dividing the group image in six equal parts and discarding obvious zero padding.
+Please note: For ease of storage and distribution, we store the member (size: $256\times128$) in each group in a single, uniform-sized image (size: $256\times768$) with proper zero padding. The image of each member can be easily obtained by dividing the group image into six equal parts and discarding obvious zero padding.
 
 ## Annotation
-The annotation in both datasets have the same format:
+The annotation in both datasets has the same format:
 ```
 Img_Path Group_ID,Camera_ID Num_Of_Total_Member,Num_Of_CC_Member ClothID_Of_CC_Member
 ```
-For example, label ` ./train/0_1_2.jpg 0,1 5,2 1,1 ` means the group id and canera id of image (./train/0_1_2.jpg) is 0 and 1. This image contains 5 members and there are 2 cloth-changing members within them. (Optionally, the cloth id of current cloth-changing members are also provided, as 1 and 1, respectively.)
+For example, the label ` ./train/0_1_2.jpg 0,1 5,2 1,1 ` means the group ID and camera ID of the image (./train/0_1_2.jpg) are 0 and 1. This image contains 5 members and there are 2 cloth-changing members within them. (Optionally, the cloth IDs of current cloth-changing members are also provided, as 1 and 1, respectively.)
 
 ## Download Link
 * GroupPRCC dataset [Google Drive](https://drive.google.com/file/d/1m4O_G3Bdl9IBEYsLCJJnwLQLS8t3CtSR/view?usp=drive_link)
 * GroupVC dataset [Google Drive](https://drive.google.com/file/d/1f0YFpND6iQkENabiD0-DR0LQQSp2HRxA/view?usp=drive_link)
 
 ## References
-Our CCGReID datasets are based on serveral previous datasets.<br />If you find our datasets useful for your research, please kindly cite the following papers.
+Our CCGReID datasets are based on several previous datasets.<br />If you find our datasets useful for your research, please kindly cite the following papers.
 
 ```
 @ARTICLE{PRCC_dataset,
