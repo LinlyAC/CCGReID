@@ -1,4 +1,4 @@
-# CCGReID-datasets
+# CCGReID Datasets
 Cloth-changing group re-identification dataset, incluidng **GroupPRCC** and **GroupVC** datasets.
 
 ## Introduction
