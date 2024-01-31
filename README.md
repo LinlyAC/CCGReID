@@ -1,5 +1,5 @@
 # CCGReID Datasets
-Cloth-changing group re-identification dataset, incluidng **GroupPRCC** and **GroupVC** datasets.
+Two datasets for cloth-changing group re-identification (CCGReID) task, namely **GroupPRCC** and **GroupVC** dataset.
 
 ## Introduction
 * GroupPRCC dataset contains 7,514 training images of 64 group identities and 3,676 testing images of 32 group identities, which are captured under 3 cameras.
