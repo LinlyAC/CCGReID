@@ -1,9 +1,14 @@
 # CCGReID-datasets
-Cloth-changing group re-identification dataset
+Cloth-changing group re-identification dataset, incluidng GroupPRCC and GroupVC datasets.
 
 
 
 ## Introduction
+
+* GroupPRCC dataset contains 7,514 training images of 64 group identities and 3,676 testing images of 32 group identities, which are captured under 3 cameras.
+* GroupVC dataset contains 3,832 training images of 111 group identities and 4,179 testing images of 118 group identities, which are captured under 4 cameras.
+
+Both datasets  provide SCS (same-cloth setting) and CCS (cross-cloth setting) protocols, corrsponding to the X_SCS.txt and X_CCS.txt, where $x \in {query, gallery}$.
 
 ## Annotation
 
@@ -12,7 +17,7 @@ Cloth-changing group re-identification dataset
 * GroupVC dataset [Google Drive](https://drive.google.com/file/d/1f0YFpND6iQkENabiD0-DR0LQQSp2HRxA/view?usp=drive_link)
 
 ## References
-Our CCGReID datasets are based on serveral previous datasets. If you find this code useful for your research, please kindly cite the following papers.
+Our CCGReID datasets are based on serveral previous datasets. If you find our datasets useful for your research, please kindly cite the following papers.
 ```
 @ARTICLE{PRCC_dataset,
   author={Yang, Qize and Wu, Ancong and Zheng, Wei-Shi},
