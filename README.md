@@ -56,3 +56,6 @@ Our CCGReID datasets are based on several previous datasets.<br />If you find ou
 * The datasets can only be used for ACADEMIC PURPOSES. NO COMERCIAL USE is allowed.
 * Copyright © Sun Yat-sen University. All rights reserved.
 
+## Contact
+If you have any question, please feel free to contact us. E-mail: zhangq48@mail2.sysu.edu.cn
+
