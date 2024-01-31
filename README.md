@@ -7,8 +7,9 @@ Cloth-changing group re-identification dataset, incluidng GroupPRCC and GroupVC 
 
 * GroupPRCC dataset contains 7,514 training images of 64 group identities and 3,676 testing images of 32 group identities, which are captured under 3 cameras.
 * GroupVC dataset contains 3,832 training images of 111 group identities and 4,179 testing images of 118 group identities, which are captured under 4 cameras.
+* Both datasets provide SCS (same-cloth setting) and CCS (cross-cloth setting) protocols.
 
-Both datasets provide SCS (same-cloth setting) and CCS (cross-cloth setting) protocols.
+Please note: For ease of storage and distribution, we store the member (size: $256(height)\times128(width)$) in each group in a single, uniform-sized image (size: $256(height)\times256(width)$).
 
 ## Annotation
 
