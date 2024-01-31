@@ -20,28 +20,34 @@ For example, label ` ./train/0_1_2.jpg 0,1 5,2 1,1 ` means the group id and cane
 * GroupVC dataset [Google Drive](https://drive.google.com/file/d/1f0YFpND6iQkENabiD0-DR0LQQSp2HRxA/view?usp=drive_link)
 
 ## References
-Our CCGReID datasets are based on serveral previous datasets.<br />      If you find our datasets useful for your research, please kindly cite the following papers.
+Our CCGReID datasets are based on serveral previous datasets.<br />If you find our datasets useful for your research, please kindly cite the following papers.
 
 ```
 @ARTICLE{PRCC_dataset,
   title={Person Re-Identification by Contour Sketch Under Moderate Clothing Change}, 
   author={Yang, Qize and Wu, Ancong and Zheng, Wei-Shi},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-  year={2021}, volume={43}, number={6}, pages={2029-2046}
+  year={2021},
+  volume={43},
+  number={6},
+  pages={2029-2046}
 }
 
 @inproceedings{VC_dataset,
   title={When person re-identification meets changing clothes},
   author={Wan, Fangbin and Wu, Yang and Qian, Xuelin and Chen, Yixiong and Fu, Yanwei},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
-  year={2020}, pages={830-831}
+  year={2020},
+  pages={830-831}
 }
 
 @inproceedings{City1M_dataset,
   title={Modeling 3D Layout for Group Re-Identification},
   author={Zhang, Quan and Dang, Kaiheng and Lai, Jian-Huang and Feng, Zhanxiang and Xie, Xiaohua},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2022}, month={June}, pages={7512-7520}
+  year={2022},
+  month={June},
+  pages={7512-7520}
 }
 ```
 
