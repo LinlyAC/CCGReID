@@ -11,7 +11,7 @@ Please note: For ease of storage and distribution, we store the member (size: $2
 ## Annotation
 The annotation in both datasets have the same format:
 ```
-img_path Group_ID,Camera_ID Num_Of_Total_Member,Num_Of_CC_Member ClothID_Of_CC_Member
+Img_Path Group_ID,Camera_ID Num_Of_Total_Member,Num_Of_CC_Member ClothID_Of_CC_Member
 ```
 For example, label ` ./train/0_1_2.jpg 0,1 5,2 1,1 ` means the group id and canera id of image (./train/0_1_2.jpg) is 0 and 1. This image contains 5 members and there are 2 cloth-changing members within them. (Optionally, the cloth id of current cloth-changing members are also provided, as 1 and 1, respectively.)
 
