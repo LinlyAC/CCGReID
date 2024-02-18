@@ -20,25 +20,15 @@ For example, the label ` ./train/0_1_2.jpg 0,1 5,2 1,1 ` means the group ID and 
 * GroupVC dataset [Google Drive](https://drive.google.com/file/d/1f0YFpND6iQkENabiD0-DR0LQQSp2HRxA/view?usp=drive_link)
 
 ## References
-Our CCGReID datasets are based on several previous datasets.<br />If you find our datasets useful for your research, please kindly cite the following papers.
+If you find our datasets useful for your research, please kindly cite the following papers.
 
 ```
-@ARTICLE{PRCC_dataset,
-  title={Person Re-Identification by Contour Sketch Under Moderate Clothing Change}, 
-  author={Yang, Qize and Wu, Ancong and Zheng, Wei-Shi},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-  year={2021},
-  volume={43},
-  number={6},
-  pages={2029-2046}
-}
 
-@inproceedings{VC_dataset,
-  title={When person re-identification meets changing clothes},
-  author={Wan, Fangbin and Wu, Yang and Qian, Xuelin and Chen, Yixiong and Fu, Yanwei},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
-  year={2020},
-  pages={830-831}
+@ARTICLE{GCCReID,
+  title={Separable Spatial-Temporal Residual Graph for Cloth-Changing Group Re-Identification}, 
+  author={Zhang, Quan and Lai, Jianhuang and Xie, Xiaohua and Jin, Xiaofeng and Huang, sien},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  year={2024}
 }
 
 @inproceedings{City1M_dataset,
@@ -58,3 +48,4 @@ Our CCGReID datasets are based on several previous datasets.<br />If you find ou
 
 ## Contact
 If you have any questions, please feel free to contact us. E-mail: zhangq48@mail2.sysu.edu.cn
+
