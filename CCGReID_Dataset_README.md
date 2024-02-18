@@ -15,6 +15,8 @@ Img_Path Group_ID,Camera_ID Num_Of_Total_Member,Num_Of_CC_Member ClothID_Of_CC_M
 ```
 For example, the label ` ./train/0_1_2.jpg 0,1 5,2 1,1 ` means the group ID and camera ID of the image (./train/0_1_2.jpg) are 0 and 1. This image contains 5 members and there are 2 cloth-changing members within them. (Optionally, the cloth IDs of current cloth-changing members are also provided, as 1 and 1, respectively.)
 
+Note: Some operations that may reveal the identity of cloth-changing members are not recommended.
+
 ## Download Link
 * GroupPRCC dataset [Google Drive](https://drive.google.com/file/d/1m4O_G3Bdl9IBEYsLCJJnwLQLS8t3CtSR/view?usp=drive_link)
 * GroupVC dataset [Google Drive](https://drive.google.com/file/d/1f0YFpND6iQkENabiD0-DR0LQQSp2HRxA/view?usp=drive_link)
@@ -23,7 +25,6 @@ For example, the label ` ./train/0_1_2.jpg 0,1 5,2 1,1 ` means the group ID and 
 If you find our datasets useful for your research, please kindly cite the following papers.
 
 ```
-
 @ARTICLE{GCCReID,
   title={Separable Spatial-Temporal Residual Graph for Cloth-Changing Group Re-Identification}, 
   author={Zhang, Quan and Lai, Jianhuang and Xie, Xiaohua and Jin, Xiaofeng and Huang, sien},
@@ -42,7 +43,6 @@ If you find our datasets useful for your research, please kindly cite the follow
 ```
 
 ## License
-
 * The datasets can only be used for ACADEMIC PURPOSES. NO COMERCIAL USE is allowed.
 * Copyright © Sun Yat-sen University. All rights reserved.
 
