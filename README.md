@@ -13,11 +13,18 @@ First refer to [INSTALL.md](./INSTALL.md).
 After that, the **PyTorch Geometric** package is also needed.
 
 #### Step1: Prepare datasets
-Download the CCGReID dataset and modify the dataset path, line 26 in [csg.py](./fastreid/data/datasets/CSG.py) (./fastreid/data/datasets/CSG.py):
-> self.root = XXX
+Download the CCGReID dataset and modify the dataset path.
+Line 23 and 73 in  [prcc.py](./fastreid/data/datasets/prcc.py) 
+> dataset_dir = XXX
+
+
+Maybe you should also keep the same dataset folder name in line 31.
+
+Same operations in [vc.py](./fastreid/data/datasets/vc.py).
+
 
 #### Prepare ViT Pre-trained Models
-Download the ViT Pre-trained model and modify the path, line 11 in [bagtricks_gvit.yml](./configs/CSG/bagtricks_gvit.yml) (./configs/CSG/bagtricks_gvit.yml):
+Download the ViT Pre-trained model and modify the path, line 11 in [SSRG.yml](./configs/Base-SSRG.yml):
 > PRETRAIN_PATH: XXX
 
 
