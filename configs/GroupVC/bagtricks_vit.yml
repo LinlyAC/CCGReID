@@ -1,0 +1,7 @@
+_BASE_: ../Base-SSRG.yml
+
+DATASETS:
+  NAMES: ("GroupVC_SC",)
+  TESTS: ("GroupVC_SC", "GroupVC_CC",)
+
+OUTPUT_DIR: logs/GroupVC/sbs_vit_ssrg_p16k4_l1h4

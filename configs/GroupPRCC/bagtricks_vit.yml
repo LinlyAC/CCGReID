@@ -1,0 +1,7 @@
+_BASE_: ../Base-SSRG.yml
+
+DATASETS:
+  NAMES: ("GroupPRCC_SC",)
+  TESTS: ("GroupPRCC_SC", "GroupPRCC_CC",)
+
+OUTPUT_DIR: logs/GroupPRCC/sbs_vit_ssrg_p16k4_l1h4

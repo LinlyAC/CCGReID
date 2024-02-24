@@ -1,0 +1,7 @@
+_BASE_: ../Base-SBS.yml
+
+DATASETS:
+  NAMES: ("PRCCG_CC",)
+  TESTS: ("PRCCG_CC",)
+
+OUTPUT_DIR: logs/PRCCG_CC/sbs_R50_feadim2048_allneibour_PRCC17n0crop

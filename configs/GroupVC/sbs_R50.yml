@@ -1,0 +1,7 @@
+_BASE_: ../Base-SBS.yml
+
+DATASETS:
+  NAMES: ("VCG_CC",)
+  TESTS: ("VCG_CC",)
+
+OUTPUT_DIR: logs/VCG_CC/bagtricks_R50+intraGv2_1layer1head_0.1lr

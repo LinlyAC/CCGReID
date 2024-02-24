@@ -1,0 +1,11 @@
+_BASE_: ../Base-AGW.yml
+
+INPUT:
+  SIZE_TRAIN: [ 384, 768 ] # 128*6=768
+  SIZE_TEST: [ 384, 768 ]
+
+DATASETS:
+  NAMES: ("GroupVC_SC",)
+  TESTS: ("GroupVC_SC", "GroupVC_CC",)
+
+OUTPUT_DIR: logs/GroupVC/agw_R50_avghead_all6

@@ -1,0 +1,7 @@
+_BASE_:  ../base-ab/res50-l2h4-bs64k32.yml
+
+DATASETS:
+  NAMES: ("GroupPRCC_SC",)
+  TESTS: ("GroupPRCC_SC", "GroupPRCC_CC",)
+
+OUTPUT_DIR: logs/GroupPRCC/bagtricks_R50_ssrg_bs64k32
