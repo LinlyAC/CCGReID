@@ -12,7 +12,7 @@ After that, the **PyTorch Geometric** package is also needed.
 
 #### Step2: Prepare datasets
 Download the CCGReID dataset and modify the dataset path.
-Line 23 and 73 in  [prcc.py](./fastreid/data/datasets/prcc.py) 
+Line 23 and 73 in  [prcc.py](./fastreid/data/datasets/prcc.py) .
 > dataset_dir = XXX
 
 
