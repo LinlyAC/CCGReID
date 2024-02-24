@@ -45,7 +45,6 @@ If you find this code useful for your research, please kindly cite the following
   pages={1-16},
   doi={10.1109/TPAMI.2024.3369483}}
 
-
 @InProceedings{Zhang_2022_CVPR,
     author    = {Zhang, Quan and Dang, Kaiheng and Lai, Jian-Huang and Feng, Zhanxiang and Xie, Xiaohua},
     title     = {Modeling 3D Layout for Group Re-Identification},
