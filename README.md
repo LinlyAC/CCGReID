@@ -1,5 +1,5 @@
 # Cloth-changing Group Re-identification (CCGReID)
-Implementation of our paper,  **Separable Spatial-Temporal Residual Graph for Cloth-Changing Group Re-Identification (TPAMI'24)**, including dataset (GroupPRCC and GroupVC) and method (SSRG).
+Implementation of **Separable Spatial-Temporal Residual Graph for Cloth-Changing Group Re-Identification (TPAMI'24)**, including dataset (GroupPRCC and GroupVC) and method (SSRG).
 
 ## CCGReID Datasets_part
 Please refer to [CCGReID_Dataset_README.md](./CCGReID_Dataset_README.md).
